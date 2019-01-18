@@ -2,7 +2,7 @@ package sheridancollege.software;
 
 public class Student {
 
-    private String name;
+    private String name, program;
     private int ID;
 
     public Student() {
@@ -32,4 +32,14 @@ public class Student {
     public void setID(int ID) {
         this.ID = ID;
     }
+
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
+    
+    
 }
