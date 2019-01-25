@@ -9,6 +9,15 @@ public class Student {
 
     private String name, program;
     private int ID;
+    private int maxCourse;
+
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
 
     public Student() {
     }
