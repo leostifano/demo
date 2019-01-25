@@ -1,5 +1,10 @@
 package sheridancollege.software;
 
+/**
+*
+*2019-01-25
+*/
+
 public class Student {
 
     private String name, program;
